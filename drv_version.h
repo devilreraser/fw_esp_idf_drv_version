@@ -24,10 +24,13 @@ extern "C"
 /* *****************************************************************************
  * Configuration Definitions
  **************************************************************************** */
-#define APP_VERSION_MAJOR 1
-#define DRV_VERSION_MAJOR APP_VERSION_MAJOR
-#define DRV_VERSION_MINOR APP_VERSION_MINOR
-#define DRV_VERSION_BUILD APP_VERSION_BUILD
+#define APP_VERSION_MAJOR       1
+#define DRV_VERSION_MAJOR       APP_VERSION_MAJOR
+#define DRV_VERSION_MINOR       APP_VERSION_MINOR
+#define DRV_VERSION_BUILD       APP_VERSION_BUILD
+
+#define DRV_VERSION_BUILD_DATE  BUILD_DATE
+#define DRV_VERSION_BUILD_TIME  BUILD_TIME
 
 /* *****************************************************************************
  * Constants and Macros Definitions
